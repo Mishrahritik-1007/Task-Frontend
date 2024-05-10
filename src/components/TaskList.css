@@ -1,0 +1,78 @@
+/* TaskList.css */
+
+.task-list {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.taskList>li {
+    /* width: 30%; */
+    list-style: none;
+}
+
+.taskList {
+    margin: 20px 50px;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: space-between;
+}
+
+.task-list h2 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    /* margin-left: 1em; */
+}
+
+.task-item {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.task-item h3 {
+    margin-bottom: 5px;
+}
+
+.task-item .task-actions {
+    margin-top: 10px;
+}
+
+.task-item button {
+    margin-right: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    opacity: 0.8;
+}
+
+.delete {
+    background-color: rgb(218, 62, 62);
+}
+
+.edit {
+    background-color: green;
+}
+
+/* Media queries for responsiveness */
+
+/* @media only screen and (min-width: 768px) {
+    .task-list {
+        width: 48%;
+    }
+} */
+
+@media only screen and (max-width: 767px) {
+    .task-list {
+        width: 100%;
+    }
+
+    .taskList {
+        display: block;
+    }
+}

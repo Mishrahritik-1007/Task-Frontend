@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+input[type="text"],
+textarea,
+input[type="date"],
+button {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+/* Media queries for responsiveness */
+@media only screen and (min-width: 768px) {
+
+  /* Two-column layout for larger screens */
+  /* main {
+    display: flex;
+    justify-content: space-between;
+  } */
+
+}

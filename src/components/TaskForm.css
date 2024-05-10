@@ -1,0 +1,27 @@
+.add {
+    background-color: rgb(7 152 236);
+}
+
+.task-form {
+    width: 50%;
+    margin: auto;
+    display: block;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.disableAdd {
+    cursor: not-allowed;
+    background-color: gray;
+}
+
+.addNewTask {
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .task-form {
+        width: 80%;
+    }
+}
